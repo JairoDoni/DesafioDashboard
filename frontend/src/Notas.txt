@@ -1,0 +1,17 @@
+//CLASSES BOOTSTRAP 4.2//
+
+//centralizar texto//
+text-center
+
+//Espaçamento ou Margem//
+my-5 //o valor pode varia de 1(o menor) a 5(o maior)//
+
+//essa div pode ocupar 12 colunas(no mobile)//
+col-12 //o valor pode variar//
+
+//Aumenta o tamanho do h1(titulo) podendo variar //
+//de 1(o maior) a 5(o menor) em relação ao tamanho//
+display-1
+
+#d02329
+#aa231d
