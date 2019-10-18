@@ -1,9 +1,23 @@
 body{
     margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100%;
+    height: auto;
 }
 .menu {
-    background: #007bff;
+    width: 200px;
+    height: 100%;
+    height: auto;
+    background: #4e73df;
     color: aliceblue;
+    display: flex;
+}
+
+@media(max-height: 1000px){
+    body{
+        background: #4e73df;  
+    }
 }
 
 li a{
@@ -14,5 +28,31 @@ li a{
     width:20px;
     height:15px;
     margin-left: 0;
+}
+html{
+    height: 100%;
+}
+
+.elements-header >  input{
+    display: flex;
+    margin-left: 300px;
+    margin-top:20px;
+    padding: 0 0 0 10px ;
+    background: #f8f9fc;
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 1px solid #486dda;
+}
+.elements-header > button{
+    margin-left: 500px;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 40px;
+    width: 50px;
+    background: #486dda;
 }
 
