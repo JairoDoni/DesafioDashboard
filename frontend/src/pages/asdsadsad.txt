@@ -1,1 +1,7 @@
 https://fontawesome.com/v4.7.0/icon/tachometer
+https://fontawesome.com/icons?d=gallery&q=arrow&m=free
+https://fontawesome.com/icons/chevron-circle-left?style=solid
+https://fontawesome.com/icons/chevron-circle-right?style=solid
+https://fontawesome.com/icons/chevron-right?style=solid
+https://material.io/resources/icons/?search=action&style=baseline
+https://getbootstrap.com/docs/4.3/extend/icons/

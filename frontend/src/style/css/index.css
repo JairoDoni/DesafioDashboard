@@ -26,12 +26,14 @@ hr{
 ul li a{
     display: block;
     font-family: 'Nunito', sans-serif;
-    opacity: 0.6;
+    opacity: 0.9;
     font-size: 15px;
+    margin-left:10px;
     padding: 15px;
     border-bottom:solid 1px #486dda;
-    color: rgb(255, 255, 255);
+    color: rgb(224, 224, 224);
     text-decoration: none;
+
 }
 ul li span{
     float: right;
@@ -48,9 +50,9 @@ li a h5{
 }
 li a h1{
     text-align: center;
-    width: 90px;
-    float: right;
-    margin-right:105px;
+    width: 120px;
+    height: auto;
+    margin-right:60px;
     color:#ffffff;
     opacity: 1;
     font-size: 15px;
@@ -72,17 +74,92 @@ li a h1{
     width:30px;
     height:30px;
     margin:0 5px;
-    margin-left: 20px;
+    
+    margin-left: 10px;
     -ms-transform: rotate(-20deg); 
     -webkit-transform: rotate(-20deg);
     transform: rotate(-20deg);
 }
-.menu-icons2{
-    width:20px;
-    height:15px;
-    margin-left: 0;
+
+.icon-dash{
+    float: left;
+    color:#ffffff; 
+    font-size: 30px;
 }
 
+
+.menu{
+    height:100%;
+    position : fixed;
+    background-color: #486dda;
+    top:0;
+}
+.menu label{
+    opacity: 0.4;
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+    font-size: 0.82em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.menu ul li a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.menu ul li a h1{
+    font-weight: bold;
+}
+.dash{
+    opacity: 1;
+    margin: -12px 0 -17px 0;
+}
+.menu-bottom li a i{
+    float: left;
+    font-size:12px;
+}
+
+.icon-menu-bottom i{
+    color: #ffffff;
+    margin-top: 15px;
+    float: left;
+    font-size:20px;
+}
+
+.sd{
+    color:#ffffff;
+    font-weight: bolder;
+    font-size: 20px;
+    opacity: 1;
+}
+.menu hr{
+    background-color: #fff;
+    color:#fff;
+    opacity: 0.2;
+}
+
+.elements-header >  input{
+    display: flex;
+    margin-left: 300px;
+    margin-top:20px;
+    padding: 0 0 0 10px ;
+    background: #f8f9fc;
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 1px solid #486dda;
+}
+.elements-header > button{
+    margin-left: 500px;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 40px;
+    width: 50px;
+    background: #486dda;
+}
 
 /* .menu-icon{
     position: fixed;
@@ -103,51 +180,6 @@ li a h1{
     background-color: #fff;
     color: rgb(248, 248, 248);
 } */
-.menu{
-    height:100%;
-    position : fixed;
-    background-color: #486dda;
-    top:0;
-}
-.menu label{
-    opacity: 0.6;
-    color: rgb(255, 255, 255);
-    font-size: 0.85em;
-    font-weight: bold;
-    padding: 10px;
-}
-
-.menu ul li a:hover{
-    color:#ffffff;
-    opacity: 1;
-    text-decoration: none;
-}
-.menu ul li a h1{
-    font-weight: bold;
-}
-.menu ul li a i{
-    margin-left:105px;
-    font-size: 12px;
-}
-.dash{
-    color: #ffffff;
-    font-weight: bolder;
-    opacity: 1;
-}
-.dash i{
-    margin-left: -20px;
-}
-.sd{
-    color: #ffffff;
-    font-weight: bolder;
-    font-size: 20px;
-    opacity: 1;
-}
-.menu hr{
-    background-color: #fff;
-    color:#fff;
-    opacity: 0.2;
-}
 
 /* .voltar{
     margin-top:60px;
@@ -200,27 +232,3 @@ li a h1{
     transition:all .2s;
 
 } */
-
-.elements-header >  input{
-    display: flex;
-    margin-left: 300px;
-    margin-top:20px;
-    padding: 0 0 0 10px ;
-    background: #f8f9fc;
-    width: 250px;
-    height: 40px;
-    border: none;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    border: 1px solid #486dda;
-}
-.elements-header > button{
-    margin-left: 500px;
-    border: none;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-    height: 40px;
-    width: 50px;
-    background: #486dda;
-}
-
