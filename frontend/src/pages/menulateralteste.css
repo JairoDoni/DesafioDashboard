@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    /*separar para classe*/
+    display: block;
+    padding:20px 5px;
+    color:#ffffff;
+}
+body{
+    font-family: arial;
+    background: url("fundo.jpg")
+}
+
+ul{
+    list-style: none;
+    /*separar para classe*/
+    position: absolute;
+    top: 70px; 
+    width: 100%;
+}
+img{
+    width: 40px;
+}
+input[type="checkbox"]{
+    display: none;
+}
+nav{
+    background-color: rgba(16, 16, 16, .5);
+    width:350px;
+    height:100%;
+    left: -350px;
+    /*aqui o position:relative  faz o Widht:100% do ul 
+    não  seja 100% do pai(do nav no caso), ou seja ele 
+    não vai pegar o espaço do nav. Fazendo com que o tamanho 
+    seja relativo ao tamanho do nav*/
+    position: absolute;
+    transition: all .5s;
+}
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(350px);
+}
+a:hover{
+    background-color: rgb(176,224,230);
+    color:#000000;
+}
+
+label{
+    padding:15px;
+    position: absolute;
+    z-index: 1;
+}
