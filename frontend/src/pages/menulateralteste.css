@@ -30,9 +30,9 @@ input[type="checkbox"]{
 }
 nav{
     background-color: rgba(16, 16, 16, .5);
-    width:350px;
+    width:300px;
     height:100%;
-    left: -350px;
+    left: -300px;
     /*aqui o position:relative  faz o Widht:100% do ul 
     não  seja 100% do pai(do nav no caso), ou seja ele 
     não vai pegar o espaço do nav. Fazendo com que o tamanho 
@@ -41,7 +41,7 @@ nav{
     transition: all .5s;
 }
 input[type="checkbox"]:checked ~ nav{
-    transform: translateX(350px);
+    transform: translateX(300px);
 }
 a:hover{
     background-color: rgb(176,224,230);

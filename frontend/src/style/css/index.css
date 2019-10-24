@@ -14,16 +14,18 @@ header{
 body{
     background: #f8f9fc;
 }
-hr{
-    color: rgb(255, 255, 255);   
+.menu hr{
+    background-color: #fff;
+    opacity: 0.2;
     border-radius: 8px;
-    opacity: 0.5;
     height: 0.30px; 
     width: auto;
     margin: 0 10px;
-    opacity: 0.5;
 }
-ul li a{
+.menu hr:first-child{
+    margin-top: 30px;
+}
+.menu ul li a{
     display: block;
     font-family: 'Nunito', sans-serif;
     opacity: 0.9;
@@ -35,11 +37,11 @@ ul li a{
     text-decoration: none;
 
 }
-ul li span{
+.menu ul li span{
     float: right;
     padding-right:10px;
 }
-li a h5{
+.menu li a h5{
     text-align: center;
     width: 100px;
     float: right;
@@ -48,7 +50,7 @@ li a h5{
     color:#ffffff;
     opacity: 1;
 }
-li a h1{
+.menu li a h1{
     text-align: center;
     width: 120px;
     height: auto;
@@ -70,7 +72,7 @@ li a h1{
     background-color: rgba(0,0,0,.6);
     display: none;
 }
-.menu-icons{
+/* .menu-icons{
     width:30px;
     height:30px;
     margin:0 5px;
@@ -79,15 +81,12 @@ li a h1{
     -ms-transform: rotate(-20deg); 
     -webkit-transform: rotate(-20deg);
     transform: rotate(-20deg);
-}
+} */
 
 .icon-dash{
     float: left;
     color:#ffffff; 
-    font-size: 30px;
 }
-
-
 .menu{
     height:100%;
     position : fixed;
@@ -118,26 +117,7 @@ li a h1{
     float: left;
     font-size:12px;
 }
-
-.icon-menu-bottom i{
-    color: #ffffff;
-    margin-top: 15px;
-    float: left;
-    font-size:20px;
-}
-
-.sd{
-    color:#ffffff;
-    font-weight: bolder;
-    font-size: 20px;
-    opacity: 1;
-}
-.menu hr{
-    background-color: #fff;
-    color:#fff;
-    opacity: 0.2;
-}
-
+/*Cabeçario*/
 .elements-header >  input{
     display: flex;
     margin-left: 300px;
