@@ -14,78 +14,13 @@ header{
 body{
     background: #f8f9fc;
 }
-.menu hr{
+hr{
     background-color: #fff;
     opacity: 0.2;
     border-radius: 8px;
-    height: 0.30px; 
+    height: 0.50px; 
     width: auto;
     margin: 0 10px;
-}
-.menu hr:first-child{
-    margin-top: 30px;
-}
-.menu ul li a{
-    display: block;
-    font-family: 'Nunito', sans-serif;
-    opacity: 0.9;
-    font-size: 15px;
-    margin-left:10px;
-    padding: 15px;
-    border-bottom:solid 1px #486dda;
-    color: rgb(224, 224, 224);
-    text-decoration: none;
-
-}
-.menu ul li span{
-    float: right;
-    padding-right:10px;
-}
-.menu li a h5{
-    text-align: center;
-    width: 100px;
-    float: right;
-    margin-top: 7px;
-    margin-right: 60px;
-    color:#ffffff;
-    opacity: 1;
-}
-.menu li a h1{
-    text-align: center;
-    width: 120px;
-    height: auto;
-    margin-right:60px;
-    color:#ffffff;
-    opacity: 1;
-    font-size: 15px;
-}
-#principal{
-    width:245px;
-    /* left:-300px; */
-}
-.bg{
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    position: fixed;
-    background-color: rgba(0,0,0,.6);
-    display: none;
-}
-/* .menu-icons{
-    width:30px;
-    height:30px;
-    margin:0 5px;
-    
-    margin-left: 10px;
-    -ms-transform: rotate(-20deg); 
-    -webkit-transform: rotate(-20deg);
-    transform: rotate(-20deg);
-} */
-
-.icon-dash{
-    float: left;
-    color:#ffffff; 
 }
 .menu{
     height:100%;
@@ -93,6 +28,43 @@ body{
     background-color: #486dda;
     top:0;
 }
+/* personaliza todos os links do menu */
+.menu ul li a{
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    opacity: 0.9;
+    font-size: 15px;
+    margin-left:10px;
+    padding: 15px;
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+}
+/* personaliza o titulo:SD ADMIM e a posição dele */
+.menu li a h5{
+    text-align: center;
+    width:200px;
+    height:30px;
+    float: right;
+    margin: 7px 50px 0 0;
+    color:#ffffff;
+    opacity: 1;
+}
+/* um hr q fica se escondendo atras do primeiro Titulo, mas isso resolve temporariamente */
+.hrfresco{
+    margin-top:40px;
+}
+/* personaliza o titulo:Dashboard e a posição dele */
+.menu li a h1{
+    width: 120px;
+    height: 25px;
+    margin: -10px -10px -15px -10px;
+    margin-right:60px;
+    color:#ffffff;
+    opacity: 1;
+    font-size: 15px;
+    
+}
+/* PERSONALIZA AS LABELS DENTRO DO MENU */
 .menu label{
     opacity: 0.4;
     color: rgb(255, 255, 255);
@@ -109,14 +81,46 @@ body{
 .menu ul li a h1{
     font-weight: bold;
 }
-.dash{
-    opacity: 1;
-    margin: -12px 0 -17px 0;
-}
+
 .menu-bottom li a i{
-    float: left;
+    float: right;
     font-size:12px;
+    margin-right:5px;
+    opacity: 0.5;
+    margin-top:10px;
 }
+li a i.menu-bottom-left{
+    float: left;
+    font-size:15px;
+    width:15px;
+    height: 15px;
+    margin-top:0.15rem;
+}
+.icons{
+    color:#ffffff; 
+    cursor:pointer;
+    float: left;
+    margin-right: 10px;
+}
+.bar{
+    width: auto;
+    height: 30px;
+    margin: 0 10px;
+}
+#principal{
+    width:245px;
+    /* left:-300px; */
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: rgba(0,0,0,.6);
+    display: none;
+}
+
 /*Cabeçario*/
 .elements-header >  input{
     display: flex;
@@ -141,25 +145,6 @@ body{
     background: #486dda;
 }
 
-/* .menu-icon{
-    position: fixed;
-    font-size:25px;
-    font-weight:bold;
-    padding: 5px;
-    width:40px;
-    height: 40px; 
-    text-align: center;
-    background-color: #ffffff;
-    color:#486dda;
-    cursor:pointer;
-    transition: all .4s;
-    left: 300px;
-    top:0;
-}
-.menu-icon:hover{
-    background-color: #fff;
-    color: rgb(248, 248, 248);
-} */
 
 /* .voltar{
     margin-top:60px;
