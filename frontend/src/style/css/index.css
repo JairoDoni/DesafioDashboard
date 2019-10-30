@@ -14,11 +14,16 @@ header{
 body{
     background: #f8f9fc;
 }
+cite{
+    background: #f8f9fc;
+    opacity: 0.2;
+    margin-left:40px; 
+    font-size: 30px;
+}
 hr{
     background-color: #fff;
     opacity: 0.2;
     border-radius: 8px;
-    height: 0.50px; 
     width: auto;
     margin: 0 10px;
 }
@@ -122,27 +127,48 @@ li a i.menu-bottom-left{
 }
 
 /*Cabeçario*/
-.elements-header >  input{
-    display: flex;
+.elements-header form input[type="text"]{
+    
     margin-left: 300px;
     margin-top:20px;
-    padding: 0 0 0 10px ;
+    padding: 0 0 0 15px ;
     background: #f8f9fc;
-    width: 250px;
+    width: 300px;
     height: 40px;
     border: none;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    border: 1px solid #486dda;
+    border-radius: 8px 0 0 8px;
+    border:1px solid rgba(0, 0, 0, .07);
+    
 }
-.elements-header > button{
+.elements-header form input[type="submit"]{
+    position: relative;
+    left: -510px;
+    background: #486dda;
     margin-left: 500px;
-    border: none;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
     height: 40px;
     width: 50px;
-    background: #486dda;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+}
+.elements-header form i{
+    position: relative;
+    left: -545px;
+    font-size: 20px;
+    color:#fff;
+}
+.elements-header .perfil {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #f8f9fc;
+    position:relative;
+    float: right;
+    border-radius: 20px;
+    border:1px solid rgba(0, 0, 0, .07);
+    margin: 20px 40px 0 0;
 }
 
 
